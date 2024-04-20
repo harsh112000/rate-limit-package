@@ -1,16 +1,23 @@
 {
-  "name": "rate-limit",
+  "name": "rateLimit-middleware",
   "version": "1.0.0",
   "description": "Express middleware for rate limiting requests",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["express", "middleware", "rate-limit", "rate limiting"],
+  "keywords": [
+    "express",
+    "middleware",
+    "rate-limit",
+    "rate limiting"
+  ],
   "author": "Harsh Srivastava",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
   },
   "repository": {
     "type": "git",

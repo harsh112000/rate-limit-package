@@ -7,7 +7,7 @@ This package provides a middleware function for rate limiting requests in Expres
 To use this middleware in your project, you can install it via npm:
 
 ```bash
-npm install rate-limit
+npm install rateLimit-middleware
 
 First, import the createRateLimitMiddleware function from the package:
 const { createRateLimitMiddleware } = require('rate-limit');
@@ -39,10 +39,7 @@ const rateLimitMiddleware = createRateLimitMiddleware(options);
 
 app.use(rateLimitMiddleware);
 
-// Your route handlers...
 
-app.listen(3000, () => {
-  console.log('Server is running on port 3000');
-});
+
 
 
