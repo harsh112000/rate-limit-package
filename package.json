@@ -1,5 +1,5 @@
 {
-  "name": "rateLimit-middleware",
+  "name": "express-rate-limiter-mw",
   "version": "1.0.0",
   "description": "Express middleware for rate limiting requests",
   "main": "index.js",
