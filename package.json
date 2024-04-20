@@ -1,15 +1,23 @@
 {
   "name": "rate-limit",
   "version": "1.0.0",
-  "description": "",
+  "description": "Express middleware for rate limiting requests",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["express", "middleware", "rate-limit", "rate limiting"],
+  "author": "Harsh Srivastava",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harsh112000/rate-limit-package.git"
+  },
+  "bugs": {
+    "url": "https://github.com/harsh112000/rate-limit-package/issues"
+  },
+  "homepage": "https://github.com/harsh112000/rate-limit-package#readme"
 }
